@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30vh;
+}
+
+h1{
+    margin-top: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ball:hover{
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 20px black;
+}
+
+#one{
+    background: linear-gradient(45deg, violet 0% ,50%, green 50%);
+}
+
+#two{
+    background: linear-gradient(45deg, rgb(75, 24, 94) 0% ,50%, rgb(126, 128, 0) 50%);
+}
+
+#three{
+    background: linear-gradient(45deg, black 0% ,50%, orange 50%);
+}
+
+#four{
+    background: linear-gradient(45deg, darkblue 0% ,50%, lightblue 50%);
+}
